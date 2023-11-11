@@ -1,10 +1,3 @@
-# Binary Trees Branch Sums
-
-![Binary Trees Branch Sums](https://github.com/aaronespasa/competitive-programming/blob/main/BT/001.Branch-Sums/001.png)
-
-Solution:
-
-```py
 class BinaryTree:
     def __init__(self, value):
         self.value = value
@@ -30,10 +23,3 @@ def fillBranchSums(node, curr_sum, result):
     
     fillBranchSums(node.left, curr_sum, result)
     fillBranchSums(node.right, curr_sum, result)
-```
-
-The `branchSums` function has a time complexity of <> and a space complexity of <>.
-
-1. **Time Complexity**: <>
-
-2. **Space Complexity**: <>
